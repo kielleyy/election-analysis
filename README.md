@@ -10,11 +10,13 @@ Final script delivers:
 4. Identifies county with the highest turnout
 5. Identifies winner of the election based on popular vote
 6. All results printed to accompanying election-analysis.txt file 
+<img width="468" alt="results printed to txt file" src="https://user-images.githubusercontent.com/71152576/95694653-2e868300-0c01-11eb-8cf6-a18eea8804e4.png">
 7. All results printed to command line
+<img width="559" alt="results printed to command line" src="https://user-images.githubusercontent.com/71152576/95694628-16aeff00-0c01-11eb-9ed0-879b732c5a89.png">
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 2.7.16, Visual Studio Code 1.49.3
+- Software: Python 3.9.0, Visual Studio Code 1.49.3
 - Assistance and detailed walk through: Columbia Data Analysis Bootcamp
 
 ## Election Audit Results
@@ -35,6 +37,6 @@ The results, by county, were as follows:
 ## Election Audit Script: Future Use
 This script can automate the tabulation of future elections with slight modification. Modifications may include:
 - Changing file names to properly identify input and output files. the proper input file (lines 19, 22)
-- If the headers of future input files don’t match current inputs: adjust indices referenced in the “for row” loop to find candidate and county names (lines 61, 64)
+- If the headers of future input files don’t match current inputs: adjust indices referenced in the for loop which runs through rows to find candidate and county names (lines 61, 64)
 
 
